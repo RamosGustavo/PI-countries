@@ -1,0 +1,78 @@
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.btns {
+    border: solid 2px #6cc4a1;
+    border-radius: 5px;
+    margin: 0px 5px 0px 5px;
+    cursor: pointer;
+    padding: 5px;
+    width: 30px;
+    background-color: whitesmoke;
+    font-weight: bold;
+}
+
+.btnSelected {
+    border: solid 2px #6cc4a1;
+    border-radius: 5px;
+    margin: 0px 5px 0px 5px;
+    cursor: pointer;
+    padding: 5px;
+    width: 30px;
+    background-color: #6cc4a1;
+    font-weight: bold;
+}
+
+.btns:hover {
+    border: solid 2px #4cacbc;
+    background-color: rgb(230, 230, 230);
+}
+
+.PrevNext {
+    border: solid 2px #6cc4a1;
+    border-radius: 5px;
+    margin: 0px 10px 0px 10px;
+    cursor: pointer;
+    padding: 5px;
+    width: 70px;
+    background-color: whitesmoke;
+    font-weight: bold;
+}
+
+.PrevNext:hover {
+    border: solid 2px #4cacbc;
+    background-color: rgb(230, 230, 230);
+}
+
+.inputF {
+    border: dashed 2px #ff2442;
+    border-radius: 5px;
+    margin: 0px 10px 0px 5px;
+    cursor: text;
+    padding: 5px;
+    width: 56px;
+    background-color: whitesmoke;
+    font-weight: bold;
+    outline: none;
+}
+
+.inputT {
+    border: solid 2px #6cc4a1;
+    border-radius: 5px;
+    margin: 0px 10px 0px 5px;
+    cursor: text;
+    padding: 5px;
+    width: 56px;
+    background-color: whitesmoke;
+    font-weight: bold;
+    outline: none;
+}
+
+.inputT:hover {
+    border: solid 2px #4cacbc;
+    background-color: rgb(230, 230, 230);
+}

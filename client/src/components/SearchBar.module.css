@@ -1,0 +1,30 @@
+.div {
+    width: fit-content;
+    height: auto;
+}
+
+.input {
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+
+.btn {
+    border: none;
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 10px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.navLink {
+    text-decoration: none;
+    color: black;
+}
+
+.img {
+    height: auto;
+    width: 10px;
+}

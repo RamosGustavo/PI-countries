@@ -1,0 +1,57 @@
+.grid {
+    display: grid;
+    place-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.img2 {
+    margin: 0;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    position: fixed;
+    z-index: -1;
+}
+
+.divh1 {
+    display: flex;
+    justify-content: center;
+    height: fit-content;
+}
+
+
+.form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px;
+}
+
+.select {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #575757;
+    border-radius: 10px;
+    background-color: #595959;
+    margin: 0px 5px 0px 5px;
+    font-weight: bold;
+    padding: 10px;
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.h1 {
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 10px;
+    width: fit-content;
+    font-size: 36px;
+    cursor: pointer;
+    color: rgb(105, 105, 105);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
